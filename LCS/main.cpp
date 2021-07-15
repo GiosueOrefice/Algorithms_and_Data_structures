@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 void LCS_LENGTH(string X,string Y,int m,int n,int *c,char *b);
 void Print_LCS(char *b,string X,short i,short j,int n);
 int main()
